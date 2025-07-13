@@ -58,7 +58,15 @@
     color: var(--primary-color);
   }
 
-  * Utility Classes */
+  .navbar ul li a i {
+    margin-right: 10px;
+  }
+
+  .navbar ul li:last-child a {
+    margin-left: 10px;
+  }
+
+  /* Utility Classes */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -98,4 +106,9 @@
   .btn-dark {
     background: var(--dark-color);
     color: #fff;
+  }
+
+  .btn-block {
+    display: block;
+    width: 100%;
   }
